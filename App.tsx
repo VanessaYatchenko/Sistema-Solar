@@ -104,7 +104,7 @@ export default function App() {
             
             <View style={styles.imagemContainer}>
               <Image
-                source={planeta} // Passando o objeto que contém a URI
+                source={planeta} 
                 style={styles.modalImagem}
                 resizeMode="cover"
                 onLoad={() => setCarregando(false)}
